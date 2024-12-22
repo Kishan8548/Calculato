@@ -22,7 +22,7 @@ import androidx.core.view.WindowInsetsCompat
 
                 tvResult = findViewById(R.id.tvresult)
 
-                // Set up number buttons
+
                 setupNumberButtons()
                 setupOperationButtons()
                 setupNavigationButtons()
