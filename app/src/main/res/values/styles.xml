@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Base Calculator Button Style -->
+
     <style name="CalcButton">
         <item name="android:layout_width">0dp</item>
         <item name="android:layout_height">80dp</item>
@@ -11,13 +11,13 @@
         <item name="android:background">@drawable/calc_button_background</item>
     </style>
 
-    <!-- Number Button Style -->
+
     <style name="CalcButton.Number">
         <item name="android:textColor">#000000</item>
         <item name="android:background">@drawable/number_button_background</item>
     </style>
 
-    <!-- Operation Button Style -->
+
     <style name="CalcButton.Operation">
         <item name="android:textColor">#FFFFFF</item>
         <item name="android:background">@drawable/operation_button_background</item>

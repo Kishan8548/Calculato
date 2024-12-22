@@ -42,7 +42,7 @@ import androidx.core.view.WindowInsetsCompat
             }
 
             private fun setupOperationButtons() {
-                // Operation buttons
+
                 findViewById<Button>(R.id.btnPlus).setOnClickListener { onOperationClick("+") }
                 findViewById<Button>(R.id.btnMinus).setOnClickListener { onOperationClick("-") }
                 findViewById<Button>(R.id.btnMultiply).setOnClickListener { onOperationClick("×") }
@@ -90,7 +90,7 @@ import androidx.core.view.WindowInsetsCompat
 
                 tvResult.text = result.toString()
 
-                // Add to history
+
                 val calculation = "$firstNumber $operation $secondNumber = $result"
                 calculationHistory.add(calculation)
 
